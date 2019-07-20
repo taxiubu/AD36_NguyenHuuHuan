@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itHome"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_black_40dp"/>
+    <item android:id="@+id/itCart"
+        android:title="@string/cart"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"/>
+    <item android:id="@+id/Notifi"
+        android:title="@string/notif"
+        android:icon="@drawable/ic_notifications_black_24dp"/>
+
+
+
+
+
+
+
+</menu>

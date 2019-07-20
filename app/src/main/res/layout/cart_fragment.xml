@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFoodShow"
+        android:layout_above="@+id/tvSumPrice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+
+        android:text="Total: "
+        android:id="@+id/Total"
+        android:textStyle="bold|italic"
+        android:layout_above="@id/btOrder"
+        android:textSize="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp" />
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Total"
+        android:layout_above="@id/btOrder"
+        android:id="@+id/tvSumPrice"
+        android:gravity="right"
+        android:text="0 VND"
+        android:textStyle="bold|italic"
+        android:textSize="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:text="@string/order"
+        android:id="@+id/btOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Application Order</string>
+
+    <string name="userName">UserName</string>
+    <string name="passWord">PassWord</string>
+    <string name="logIn">Đăng nhập</string>
+    <string name="logOut">Đăng xuất</string>
+    <string name="setting">Cài đặt</string>
+    <string name="MessErrorName">Điền tên đăng nhập</string>
+    <string name="MessErrorPass">Mật khẩu phải lớn hơn 6 kí tự</string>
+    <string name="messClickFood">Đã thêm vào giỏ hàng</string>
+    <string name="order">ORDER</string>
+    <string name="home">Home</string>
+    <string name="notif">Notifications</string>
+    <string name="cart">Cart</string>
+    <string name="complete">Complete!</string>
+    <string name="delete">Xóa</string>
+</resources>
